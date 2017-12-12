@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+
+    <array name="algoTyper">
+
+        <item name="type1">MiniMax without CutOff</item>
+        <item name="type2">MiniMax Alpha Beta without CutOff</item>
+        <item name="type3">MiniMax with CutOff</item>
+        <item name="type4">MiniMax Alpha Beta with CutOff</item>
+        <item name="type5">MiniMax Alpha Beta with CutOff 3</item>
+    </array>
+
+    <array name="algoTypeValues">
+        <item name="type1">MN</item>
+        <item name="type2">AN</item>
+        <item name="type3">MD</item>
+        <item name="type4">AD</item>
+        <item name="type5">ADD</item>
+    </array>
+
+    <string name="preference">Choose Algorithm</string>
+    <string name="preferenceSummary">Choose which algorithm has to be implemented for the computer to play</string>
+
+
+    <array name="matrixTyper">
+        <item name="type1">3 X 3</item>
+        <item name="type2">4 X 4</item>
+        <item name="type3">5 X 5</item>
+        <item name="type4">6 X 6</item>
+        <item name="type5">7 X 7</item>
+    </array>
+
+    <array name="matrixTypeValues">
+        <item name="type1">three</item>
+        <item name="type2">four</item>
+        <item name="type3">five</item>
+        <item name="type4">six</item>
+        <item name="type5">seven</item>
+    </array>
+
+    <string name="preference1">Choose Matrix Size </string>
+    <string name="preferenceSummary1">Choose the grid size for the Tic Tac Toe Game</string>
+
+
+    <array name="symbolTyper">
+        <item name="type1">X</item>
+        <item name="type2">O</item>
+    </array>
+
+    <array name="symbolTypeValues">
+        <item name="type1">X</item>
+        <item name="type2">O</item>
+    </array>
+
+    <string name="preference2">Choose your symbol </string>
+    <string name="preferenceSummary2">Choose your symbol for the Tic Tac Toe Game</string>
+
+    <array name="playfirstTyper">
+        <item name="type1">Computer plays first</item>
+        <item name="type2">I play first</item>
+    </array>
+
+    <array name="playfirstValues">
+        <item name="type1">computer</item>
+        <item name="type2">player</item>
+    </array>
+
+    <string name="preference3">Choose the first player </string>
+    <string name="preferenceSummary3">Choose who should make the first move for the Tic Tac Toe Game</string>
+
+</resources>

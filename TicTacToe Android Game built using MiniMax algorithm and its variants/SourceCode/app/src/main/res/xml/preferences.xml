@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ListPreference
+        android:key="matrixPreference"
+        android:entries="@array/matrixTyper"
+        android:entryValues="@array/matrixTypeValues"
+        android:defaultValue="three"
+        android:title="@string/preference1"
+        android:summary="@string/preferenceSummary1"
+        />
+
+
+        <ListPreference
+            android:key="algoPreference"
+            android:entries="@array/algoTyper"
+            android:entryValues="@array/algoTypeValues"
+            android:defaultValue="AD"
+            android:title="@string/preference"
+            android:summary="@string/preferenceSummary"/>
+
+
+    <ListPreference
+        android:key="symbolPreference"
+        android:entries="@array/symbolTyper"
+        android:entryValues="@array/symbolTypeValues"
+        android:defaultValue="O"
+        android:title="@string/preference2"
+        android:summary="@string/preferenceSummary2"
+        />
+
+    <ListPreference
+        android:key="playfirstPreference"
+        android:entries="@array/playfirstTyper"
+        android:entryValues="@array/playfirstValues"
+        android:defaultValue="player"
+        android:title="@string/preference3"
+        android:summary="@string/preferenceSummary3"
+        />
+
+    <EditTextPreference
+        android:key="custommatrixsize"
+        android:inputType="number"
+        android:defaultValue="3"
+        android:title="Enter a custom matrix size"
+        android:summary="This is not recommended as choosing a size more than 7 will be not clearer to play if the screen size is small"
+        />
+
+
+
+
+</PreferenceScreen>
